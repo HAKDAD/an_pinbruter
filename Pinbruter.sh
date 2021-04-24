@@ -6,7 +6,7 @@ echo :::::::::::::::::::
 
 echo :::::::::::::::::::::::::::
 echo INSTA ID : @mr_kali_hacker
-echo ::::::::::::::::::::;;;;:;;
+echo :::::::::::::::::::::::::::
 
 
 adb shell input keyevent 82
