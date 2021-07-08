@@ -1,13 +1,20 @@
 ##############################################################################################
 
 USE IT CAREFULLY AND WISELY. AND I AM NOT RESPONSIBLE FOR THE ACTIVITIES YOU DO WITH MY TOOL. SO YOU SHOULD BARE THE RISK OF USING MY TOOL.
+
 ##############################################################################################
 
 **********************************
 
 # an_pinbruter
 
+
+
 #### COMMANDS TO BE FOLLOWED TO INSTALL
+
+REQUIREMENTS:
+
+#### sudo apt-get install adb
 
 #### git clone https://github.com/HAKDAD/an_pinbruter
 
